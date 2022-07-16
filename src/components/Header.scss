@@ -1,0 +1,51 @@
+@use '../styles/partials/_mixins.scss' as *;
+@use '../styles/partials/_colors.scss' as *;
+@use '../styles/partials/_fonts.scss' as *;
+
+// Page header
+h1 {
+  @include textBold(1.75rem, 2.25rem);
+  @include tablet {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+// Subheader
+h2 {
+    @include textBold(1.75rem, 2.25rem);
+    @include tablet {
+      font-size: 1.5rem;
+      line-height: 1.375rem;
+    }
+  }
+
+
+
+
+// Labels links and buttons
+h3 {
+    @include textBold(.875rem, 1.375rem)
+}
+
+// Table header
+h4 {
+    @include textRegular(.75rem, 1.125rem)
+}
+
+//Body 
+p1 {
+    @include textRegular (1rem, 1.75rem)
+}
+
+p2 {
+    @include textRegular (.875rem, 1.375rem)
+}
+
+p3 {
+    @include textRegular (.75rem, 1.125rem)
+}
+
+
+
+
